@@ -1,0 +1,85 @@
+GOAL = combined_tersoff_3d_lj_D_zmove6000_harm_nodrsav_lin_2021.x
+
+INCL = common.inc
+
+OBJ = boxreset.o\
+main.o\
+kset.o\
+anionmv.o\
+anionmv_cim2.o\
+conjrod.o\
+dcell.o\
+dipolemove.o\
+dipquadmove.o\
+dispout.o\
+dofmoveselect.o\
+dump.o\
+ener.o\
+erfunc.o\
+gauss.o\
+header.o\
+invert.o\
+matinv.o\
+output.o\
+tramp.o\
+pramp.o\
+prescalcbo.o\
+ran1.o\
+rattle.o\
+rdftern.o\
+rdfouttern.o\
+readin.o\
+realE_multipol_ewald_nosr_fgrad.o\
+realE_multipol_ewald_nosr_quad.o\
+recipE_tern_ewald_fgrad_varkmax.o\
+recipE_tern_ewald_fgrad_varkmax_quad.o\
+sr_energy.o\
+rearrange.o\
+rescale.o\
+rescalen.o\
+rgdrealE_ewald_nosr.o\
+rgdrecipE_tern_ewald.o\
+rstrun.o\
+setup.o\
+shake.o\
+debye_scherer.o\
+debye_scherer_out.o\
+timeset.o\
+trans_chains.o\
+update_positions.o\
+update_velocities.o\
+velkill.o\
+vellkill.o\
+velsetvv.o\
+DBRENT.o\
+DF1DIM.o\
+DFUNC.o\
+F1DIM.o\
+FUNC.o\
+LINMIN.o\
+MNBRAK.o\
+FRPRMN.o\
+conjgrad.o\
+dynmat.o\
+daimmv.o\
+quaimmv.o\
+separations.o
+
+#FFLAGS = -O2 -static
+# FFLAGS = -Wall
+#  FFLAGS = -O
+#  #LIBS = /home/coulson/mw/mwilson/libs/libnaglin.a
+                                                                                        
+${GOAL}: ${OBJ} ; \
+   gfortran ${OBJ} ${FFLAGS} ${LIBS} -o ${GOAL}
+#  f77 ${OBJ} ${FFLAGS} ${LIBS} -o ${GOAL}
+#  #         pgf90   ${OBJ} ${FFLAGS} -o ${GOAL}
+                                                                                        
+.f.o: ${INCL} ; \
+  gfortran  ${FFLAGS} -c $<
+#  f77  ${FFLAGS} -c $<
+#  #        pgf90   ${FFLAGS} -c $<
+                                                                                        
+program:;\
+       cat ${SRCS} > comp
+

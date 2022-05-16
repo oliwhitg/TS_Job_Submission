@@ -1,0 +1,13 @@
+c LJ variables.
+      common/lj0001/epsilon(nspmax,nspmax),sigma(nspmax,nspmax)
+      common/lj0002/fourepsil(nspmax,nspmax),sig12(nspmax,nspmax)
+     x             ,sig6(nspmax,nspmax)
+      common/lj0003/nochargelog,ljpotlog
+      common/lj0004/sig24(nspmax,nspmax)
+      common/lj0005/cut(nspmax,nspmax)
+
+      logical nochargelog,ljpotlog
+
+c Harmonic potential variables
+      common/harmp1/harmpotlog,harmpotlog2
+      logical harmpotlog,harmpotlog2

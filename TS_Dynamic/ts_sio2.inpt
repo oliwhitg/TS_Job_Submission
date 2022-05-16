@@ -1,0 +1,24 @@
+TS                (potential type).
+
+7.17005d0         r-- (a.u.)
+2.4748d-4         D-- (a.u.)
+12.07092d0          gamma-- (a.u.)
+
+4.63710d0         r+- (a.u.)
+1.9033d-3         D+- (a.u.)
+11.15230d0        gamma+- (a.u.)
+
+5.75038d0         r++ (a.u.)
+2.08460d-3       D++ (a.u.)
+10.45517d0        gamma++ (a.u.)
+
+8.89378d0         dipole polarisability (1) (au)
+200.0d0           dipole fake mass
+.true.            Thermostat pim? (1)
+30.0d0            T fke
+5000.0d0          relaxation time
+2.02989d0         1-2 damping parameter (b)
+4                 1-2 order of damping function polynomial (k_max)
+1.50435d0         1-2 damping parameter (c)
+
+-1.50435d0        1-2 damping parameter (c)

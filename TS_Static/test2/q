@@ -1,0 +1,10 @@
+#!/bin/csh
+setenv WORK /tmp/$USER/$JOB_ID
+mkdir -p $WORK
+cd /users/mw/mwilson/mx2/sio2/2d/bilayer/heyde_int/ts
+cp * $WORK
+cd $WORK
+./dip_11000.x
+cp * /users/mw/mwilson/mx2/sio2/2d/bilayer/heyde_int/ts
+rm -Rf $WORK
+cd ../

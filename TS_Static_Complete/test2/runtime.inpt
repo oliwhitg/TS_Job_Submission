@@ -1,0 +1,48 @@
+200         Number of steps in the run.
+0.0001d0    Translational temperature.
+151.315     Relative molecular mass (gmol^-1)
+800         Number of ionic molecular units.
+2           Number of ionic species.
+1600        Number of species of type 1.
+-1.38257d0  Permanent charge on type 1 ions.
+16.0d0      Atomic mass of type 1.
+.true.      Polarizable ?
+800         Number of species of type 2.
+2.76514d0   Permanent charge on type 2 ions.
+28.08d0     Atomic mass of type 2.
+.false.     Polarizable ?
+25.0d0      Timestep (a.u.).
+rim         Type of run (rim,dippim,quadpim)
+ts          Type of run (epp,cim,aim)
+.false.     Steepest descent minimisation ? (if .true. require time step + annealing steps + T/F for anneal radii only).
+.false.     Conjugate gradient minimisation?
+.true.      Restart ? (if .true. then next line is 'inpt' or 'rst' if cell lengths are to be read from the 'crystal_cell' or restart files).
+inpt
+.false.     Set up velocities?
+.false.     Velocity rescale prior to main run ?
+.false.     Random displacement of ions.
+.true.      Move ions?
+.false.     Do a dynamical matrix calculation?
+.true.      Relax input structure? (.true. will 'kill' the velocities at a local k.e. maximum - steepest descent minimisation).
+1           Number of steps inbetween periodic output (energies).
+100         Number of steps inbetween periodic output (velocities etc).
+1           Number of steps inbetween periodic output (frictions etc).
+1           Number of steps inbetween periodic output (pressure etc).
+10          Number of steps inbetween rdf call in main loop.
+10          Number of steps inbetween S(k) call in main loop
+1           Number of ions to monitor.
+1           Ion number to monitor. (1)
+5.60d0      eta = <x>/boxlen.
+45.0d0      rcut (au).
+1.0d-7      convergence parameter.
+.false.     Nose-Hoover thermostat? (if true then enter a relaxation time)
+.false.     Periodic rescale of temperature?
+.false.     Periodic re-annealing?
+.false.     Isotropic barostat?
+.false.     Anisotropic barostat?
+.false.     Orthorhombic cell?
+.false.     T ramping ?
+.false.     p ramping?
+.false.     EFG calc. ?
+.false.     Box ramping?
+.false.     Box ramping?

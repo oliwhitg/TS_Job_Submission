@@ -1,0 +1,10 @@
+13         Number of k-vector xyz sets. (static)
+9          Maximum mod k component. (static)
+15         kmax_ds
+500        nbin
+1  0  0  1  1  0  1 -1  0  1  1  1 -1
+0  1  0  1  0  1  0  1 -1  1  1 -1  1
+0  0  1  0  1  1 -1  0  1  1 -1  1  1
+.false.     Perform cf calc.? (if true then two more lines)
+.true.     Dump msd displacements? (if true one more line)
+20         msdcalltime

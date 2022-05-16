@@ -1,0 +1,9 @@
+            dxcf=x(i)-x(j)
+            dycf=y(i)-y(j)
+            dzcf=z(i)-z(j)
+c
+c Apply minimum image convention:
+c
+            dxcf=dxcf-boxlenx*int(dxcf*halfboxxrec)
+            dycf=dycf-boxleny*int(dycf*halfboxyrec)
+            dzcf=dzcf-boxlenz*int(dzcf*halfboxzrec)

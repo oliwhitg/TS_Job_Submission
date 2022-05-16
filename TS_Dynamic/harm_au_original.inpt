@@ -1,0 +1,49 @@
+harmlin                (potential type).
+    4.9624d0        harm r0 (11)
+    1.001d0         harm k (11)
+    3.0387d0         harm r0 (12)
+    1.001d0         harm k (12)
+    0.0d0         harm r0 (22)
+    0.0d0         harm k (22)
+
+1.0d0     u0 (11)
+4.00d0    cut (11)
+0.0d0     u0 (12)
+0.0d0     cut (12)
+1.0d0     u0 (22)
+4.0d0     cut (22)
+
+
+
+
+
+harmrep                (potential type).
+    4.9624d0        harm r0 (11)
+    1.001d0         harm k (11)
+    3.0387d0         harm r0 (12)
+    1.001d0         harm k (12)
+    0.0d0         harm r0 (22)
+    0.0d0         harm k (22)
+
+0.0d0     epsilon (11)
+0.0d0     sigma (11)
+0.0d0     epsilon (12)
+0.0d0     sigma (12)
+10.0d0    epsilon (22)
+3.00d0    sigma (22)
+
+
+harmlin                (potential type).
+    0.0d0        harm r0 (11)
+    0.00d0         harm k (11)
+    0.0d0         harm r0 (12)
+    0.0d0         harm k (12)
+    0.0d0         harm r0 (22)
+    0.0d0         harm k (22)
+
+1.0d0     u0 (11)
+8.00d0    cut (11)
+0.0d0     u0 (12)
+0.0d0     cut (12)
+0.0d0     u0 (22)
+0.0d0     cut (22)

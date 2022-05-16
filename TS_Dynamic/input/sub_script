@@ -1,0 +1,18 @@
+#!/bin/csh
+#$ -S /bin/csh
+#$ -l s_rt=150:00:00
+#$ -cwd
+#$ -N Static100000
+
+set fromdir = /u/mw/jesu2929/Holiday_Work/TS_Test_Environment/Minimisations/567/T-1600/t-1600_s0_same/static/static_100000/intercept_90/area_940/
+set todir = /u/mw/jesu2929/Holiday_Work/TS_Test_Environment/Minimisations/567/T-1600/t-1600_s0_same/static/static_100000/intercept_90/area_940/
+setenv WORK /tmp/$USER/$JOB_ID
+
+mkdir -p $WORK
+cd $fromdir
+cp -r * $WORK
+cd $WORK
+./dip_10000.x
+cp *.dat *.log $fromdir
+cp * $todir
+rm -Rf $WORK

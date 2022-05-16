@@ -1,0 +1,16 @@
+   1.0d0  0.0d0  0.0d0
+   0.0d0  1.0d0  0.0d0     Cell matrix.
+   0.0d0  0.0d0  1.0d0    
+192.558715086       L_x
+166.760739902       L_y
+366.431490815       L_z
+           20       Number of unit cells in x direction (starting from a crystal only)
+           12       Number of unit cells in y direction (starting from a crystal only)
+           1        Number of unit cells in z direction (starting from a crystal only)
+           2        Number of type I particles in unit cell.
+x_tet.mat    
+           2        Number of type II particles in unit cell.
+m_tet.mat    
+   4.6d0            Unit cell length - x direction.
+   8.0d0            Unit cell length - x direction.
+   100.0d0          Unit cell length - x direction. 

@@ -1,0 +1,8 @@
+0.003d0                Move factor.
+1.0d-6                 CG tolerance.
+1.0d-14                CG tolerance.
+1                      Start ion.
+324                      End ion.
+1.0d0  0.0d0  0.0d0
+0.0d0  1.0d0  0.0d0
+0.0d0  0.0d0  1.0d0

@@ -1,0 +1,10 @@
+#!/bin/csh
+setenv WORK /tmp/$USER/$JOB_ID
+mkdir -p $WORK
+cd /home/dirac/oxford/mwilson/for_ow/test4/
+cp * $WORK
+cd $WORK
+./dip_10000.x
+cp * /home/dirac/oxford/mwilson/for_ow/test4/
+rm -Rf $WORK
+cd ../

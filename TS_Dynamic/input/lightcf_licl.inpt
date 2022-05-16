@@ -1,0 +1,20 @@
+-342.0d0    Hyperpolarizability B-term.
+2270.0d0    Hyperpolarizability gamma-term.
+27.900d0     Undistorted polarizability.
+19.400          Anion polar
+0.192           Cation polar
+0.0011     Short range A-term. [Anion-anion].
+0.0011     Short range B-term. [Anion-anion].
+1.82d0     Short range C-term. [Anion-anion].
+1.82d0     Short range D-term. [Anion-anion].
+0.0031d0   Short range A-term. [Anion-cation].
+0.00275d0   Short range B-term. [Anion-cation].
+1.323d0     Short range C-term. [Anion-cation].
+1.196d0     Short range D-term. [Anion-cation].
+0.0d0      Short range A-term. [Cation-cation].
+0.0d0      Short range B-term. [Cation-cation].
+0.0d0      Short range C-term. [Cation-cation].
+0.0d0      Short range D-term. [Cation-cation].
+2.995d0      Anion radius
+1.542d0      Cation radius
+2.995d0      Anion radius

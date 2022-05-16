@@ -1,0 +1,9 @@
+As you've seen before.
+
+To use a harmonic potential only use 'harm' at the top of the potential parameter files (here 'harm_au.inpt').
+To use the ramp potential+harmonic potential use 'harmlin' at the top of the same file.
+
+In the version I have here I have converted a bilayers (in 'jp.crds2') into atomic units. Hence,
+the distances in the 'harm_au.inpt' file are in atomic units.
+
+As we discussed, the ramp potential can be defined by the energy at r=0 and the cutoff distance.

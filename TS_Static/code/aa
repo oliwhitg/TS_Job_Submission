@@ -1,0 +1,16 @@
+#FFLAGS = -O2 -static
+# FFLAGS = -Wall
+LIBS = /home/coulson/mw/mwilson/libs/libnaglin.a
+                                                                                        
+${GOAL}: ${OBJ} ; \
+   gfortran ${OBJ} ${FFLAGS} ${LIBS} -o ${GOAL}
+#  f77 ${OBJ} ${FFLAGS} ${LIBS} -o ${GOAL}
+#         pgf90   ${OBJ} ${FFLAGS} -o ${GOAL}
+                                                                                        
+.f.o: ${INCL} ; \
+  gfortran  ${FFLAGS} -c $<
+#  f77  ${FFLAGS} -c $<
+#        pgf90   ${FFLAGS} -c $<
+                                                                                        
+program:;\
+       cat ${SRCS} > comp
